@@ -1,0 +1,125 @@
+header{
+    background:black;
+    width: 100%;
+    height: 150px;
+
+}
+body{
+    margin: 0;
+    background: black;
+
+}
+.main-head {
+    text-align: center;
+}
+.p1 {
+    position: relative;
+    top: 50px;
+    color: rgb(168, 167, 167);
+    text-transform: uppercase;
+}
+.h1 {
+    position: relative;
+    top: 50px;
+    color: rgb(237, 235, 235);
+    font-size: 50px;
+}
+.menu {
+    width: 100%;
+    height: 50px;
+    background-color:black;
+    position: relative;
+    bottom: 1px;
+}
+ul {
+    position: relative;
+    left: 300px;
+    top: 18px;
+    color: white;
+    display: inline;
+
+}
+hr {
+    border-top: 1px solid grey;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.image1{
+    width: 100%;
+    height:100%;
+}
+.image1 img{
+    width: 100%;
+}
+
+.text{
+    width: 100%;
+    height: 100%;
+    color: rgb(122,122,122);
+    text-align: center;
+    font-weight: 700;
+    margin-top:100px;
+    font-family: "Roboto", Sans-serif;
+    font-size: 22px;
+}
+.image2{
+    width: 100%;
+    height: 530px;
+    display: flex;
+    justify-content: center;
+    margin-top: 11px;
+    
+}
+.image2 img{
+    width: 880px;
+    height: 495px;
+}
+.footer{
+    width: 100%;
+    height: 355px;
+    background:black;
+}
+
+.main-icon{
+    display:flex;
+    justify-content: center;
+    margin-top: 150px;
+    gap: 60px;
+
+}
+.main-icon p{
+    margin: 10px;
+    border-radius: 50%;
+    padding: 10px;
+
+}
+.copy{
+    color: white;
+    text-align: center;
+    margin-top: 240px;
+
+}
+.icon1{
+    color:white;
+    background-color: rgb(53,80,137);
+}
+.icon2{
+    color: rgb(299,299,299);
+    background-color: rgb(34,34,34);
+}
+.icon3{
+    color: rgb(230,230,230);
+    background-color: rgb(0,107,163);
+}
+.icon4{
+    color: rgb(230,230,230);
+    background-color: rgb(185,29,28);
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+li{
+    display: inline;
+    padding-left: 15px;
+}
